@@ -1,0 +1,16 @@
+.description {
+  display: flex;
+  justify-content: space-evenly;
+}
+.title-movie {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.title-movie h2 {
+  margin-right: 6rem;
+}
+.description h4,
+p {
+  margin-right: 6rem;
+}

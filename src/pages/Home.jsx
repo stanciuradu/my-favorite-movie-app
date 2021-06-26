@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import "../pages/Home.css";
 import { ReactComponent as Cinema } from "../assets/icons/cinema.svg";
 import { ReactComponent as Netflix } from "../assets/icons/netflix.svg";
+import {Link} from 'react-router-dom';
 function Home() {
   return (
     <Layout>
@@ -15,7 +16,10 @@ function Home() {
             vizionat de-a lungul timpului și pe care le rcomand cu mare căldură!
           </div>
           <div class="col-6">
+            <Link to='movie'>
             <img src="https://i.imgur.com/LKhgS0Q.jpg" alt="" />
+            
+            </Link>
           </div>
         </div>
         <div class="row align-items-start">
